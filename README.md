@@ -1,4 +1,4 @@
-# PDF Generator
+# TS PDF Generator
 
 This is a simple PDF generation tool written in TypeScript. It allows you to create PDF documents programmatically with ease.
 
@@ -15,13 +15,13 @@ This is a simple PDF generation tool written in TypeScript. It allows you to cre
 To install the PDF Generator package, run:
 
 ```bash
-npm install pdf-generator
+npm install ts-pdf-maker
 ```
 
 ### Usage
 
 ```typescript
-import PDFGenerator from "pdf-generator";
+import PDFGenerator from "ts-pdf-maker";
 
 const pdfGenerator = new PDFGenerator();
 pdfGenerator.addText("Hello, world!");
@@ -33,7 +33,7 @@ pdfGenerator.save();
 You can configure the PDF document by passing options to the PDFGenerator constructor:
 
 ```typescript
-import PDFGenerator from "pdf-generator";
+import PDFGenerator from "ts-pdf-maker";
 
 const options = {
   filename: "my-document.pdf",

@@ -1,5 +1,5 @@
 {
-  "name": "pdf-generator",
+  "name": "ts-pdf-maker",
   "version": "1.0.0",
   "description": "A PDF generation tool in TypeScript.",
   "main": "./dist/index.js",
