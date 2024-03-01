@@ -14,7 +14,10 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:sweeeeetch/ts-pdf-maker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweeeeetch/ts-pdf-maker.git"
+  },
   "keywords": [
     "pdf",
     "generator",
