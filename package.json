@@ -26,6 +26,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "billymoor": "^1.0.0",
     "pdfkit": "^0.13.0"
   },
   "devDependencies": {
